@@ -12,8 +12,8 @@ export class AppComponent {
   private readonly requestedDate = '2021-6-20';
 
   public roverPictures: any;
-  public roverPicturesObs: Observable<[]>;
-  public roverPicturesObs2: Observable<[]>;
+  public roverPicturesObs: Observable<any[]>;
+  public roverPicturesObs2: Observable<any[]>;
 
   constructor(private readonly dataService: DataService) {}
 

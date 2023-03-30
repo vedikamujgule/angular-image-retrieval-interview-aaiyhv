@@ -20,6 +20,7 @@ export class DataService {
     );
   }
 
+  //task 5
   public getUrlsFromRoverPictures(date: string): Observable<string[]> {
     const url =
       'https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=' +

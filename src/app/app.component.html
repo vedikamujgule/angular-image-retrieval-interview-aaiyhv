@@ -1,0 +1,10 @@
+<h2>Mars Rover Pictures:</h2>
+<button class="get-pictures" (click)="getPictures()">Get Pictures</button>
+<div *ngFor="let picture of roverPicturesObs | async">
+  <img class="rover-picture" [src]="picture.img_src" />
+</div>
+
+<p>this is the Displayed data for task 5</p>
+<div *ngFor="let picture of roverPicturesObs2 | async">
+  <img class="rover-picture" [src]="picture.img_src" />
+</div>
